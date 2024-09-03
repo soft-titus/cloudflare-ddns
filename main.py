@@ -11,11 +11,11 @@ from cloudflare import Cloudflare
 
 def get_public_ip():
     """
-    Fetches the current public IP address by making a request to the ipify API.
+    Fetches the current public IP address.
     Returns:
         str: The public IP address as a string.
     """
-    return requests.get("https://api.ipify.org", timeout=10).text
+    return requests.get("https://checkip.amazonaws.com", timeout=10).text
 
 
 def main():

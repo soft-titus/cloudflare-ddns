@@ -4,7 +4,7 @@ This script updates Cloudflare DNS records with your current public IP address. 
 
 ## Features
 
-- Automatically fetches your public IP address using the ipify API.
+- Automatically fetches your public IP address.
 - Compares the current public IP with your existing DNS records in Cloudflare.
 - Updates the DNS records only if there's a change in the public IP.
 
